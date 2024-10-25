@@ -12,5 +12,12 @@ document.getElementById("form").addEventListener("submit", function (event) {
     BRL: { USD: 0.18, EUR: 0.16 },
     EUR: { USD: 1.08, EUR: 6.16 },
   };
- 
+  // Conversão simples de moedas
+  let valorConvertido;
+  if (daMoeda === paraMoeda) {
+    valorConvertido = valor;
+  } else {
+    valorConvertido = valor * exchangeRates[daMoeda][paraMoeda];
+  }
+
 });
