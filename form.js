@@ -5,4 +5,12 @@ document.getElementById("form").addEventListener("submit", function (event) {
   const valor = parseFloat(document.getElementById("amount").value);
   const daMoeda = document.getElementById("daMoeda").value;
   const paraMoeda = document.getElementById("paraMoeda").value;
+
+  // definir taxas de cambio fixas
+  const exchangeRates = {
+    USD: { BRL: 5.7, EUR: 0.93 },
+    BRL: { USD: 0.18, EUR: 0.16 },
+    EUR: { USD: 1.08, EUR: 6.16 },
+  };
+ 
 });
