@@ -1,6 +1,6 @@
 /* define cor de fundo da pagina */
 body {
-    background-color: #ffffff;
+    background-color: #1d1429;
   }
   /* estilização do container */
   .container{
@@ -32,9 +32,25 @@ body {
   }
   /* alinha titulo e defini cor */
   h1 {
-    color: rgb(231, 166, 166);
+    color: rgb(255, 187, 187);
     text-align: center;
   }
+
+#moeda {
+    margin-top: 10rem;
+    position: absolute;
+    margin-left: 50rem;
+    font-size: 9em;
+    color: rgb(168, 122, 122);
+}
+
+  h2{
+    margin-top: 0.5%;
+    position: absolute;
+    margin-left: 35rem;
+    font-size: 9em;
+    color: rgb(152, 87, 182);
+}  
   
   /* Estilo básico do elemento select */
   .form-select {
@@ -44,5 +60,10 @@ body {
     color: #000000;
     cursor: pointer;
   }
-  
+  img{
+    margin-top: 15rem;
+    margin-left: 35rem;
+    position: absolute;
+    width: 15%;
+  }
   
