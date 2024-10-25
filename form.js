@@ -20,4 +20,6 @@ document.getElementById("form").addEventListener("submit", function (event) {
     valorConvertido = valor * exchangeRates[daMoeda][paraMoeda];
   }
 
+  const Conversão = document.getElementById("conversão");
+  Conversão.textContent = `Resultado: ${valorConvertido.toFixed(2)} ${paraMoeda} `;
 });
